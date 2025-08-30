@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes pulse-slow {
+    0%, 100% {
+      text-shadow: 0 0 20px rgba(99, 102, 241, 0.7), 0 0 40px rgba(34, 211, 238, 0.5);
+    }
+    50% {
+      text-shadow: 0 0 30px rgba(99, 102, 241, 0.9), 0 0 60px rgba(34, 211, 238, 0.7);
+    }
+  }
+  .animate-pulse-slow {
+    animation: pulse-slow 3s infinite ease-in-out;
+  }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-bg {
+  background: linear-gradient(-45deg, #0b0f4f, #000000, #4b0000);
+  background-size: 600% 600%;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-bg {
+  background: linear-gradient(-45deg, #0b0f4f, #000000, #4b0000);
+  background-size: 600% 600%;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes shooting {
+  0% {
+    transform: translate(0, 0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(200px, 200px) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+.animate-shooting {
+  animation-name: shooting;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+
