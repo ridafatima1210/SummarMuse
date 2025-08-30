@@ -41,3 +41,28 @@ It allows users to **upload PDFs**, select **Short**, **Medium**, or **Long** su
 ```bash
 git clone https://github.com/your-username/SummarMuse.git
 cd SummarMuse
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm run dev
+```
+After running the command, open the app in your browser:
+http://localhost:5173
+
+---
+
+## Build for Production
+```bash
+npm run build
+```
+To preview the production build locally:
+```bash
+npm run preview
+```
+
