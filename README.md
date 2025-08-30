@@ -114,5 +114,13 @@ You are free to use, modify, and distribute it.
 - **LinkedIn**: [Rida Fatima](https://www.linkedin.com/in/ridafatima1210/)  
 - **Email**: [ridafatima121004@gmail.com](mailto:ridafatima121004@gmail.com)
 
+---
+
+## Live Demo
+
+Check out the live version of **SummarMuse** here:  
+[🔗 Click to View Live App](https://summar-muse.vercel.app/)
+
+
 
 
